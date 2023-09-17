@@ -459,4 +459,177 @@ title{
 			border-radius: 30px;
 		}
 }
+body {
+	position: relative;
+	/* height: 100%; */
+  }
+
+  
+
+  .swiper {
+	width: 100%;
+	height: 100%;
+  }
+
+  .swiper-slide {
+	text-align: center;
+	/* font-size: 18px; */
+	/* background: #fff; */
+	display: flex;
+	/* justify-content: center; */
+	/* align-items: center; */
+  }
+
+  .swiper-slide img {
+	display: block;
+	width: 90%;
+	height: 95%;
+	scale: 0.9;
+
+	border-radius: 30px;
+	object-fit: cover;
+  }
+
+  .swiper-slide {
+	width: 80%;
+  }
+
+  .swiper-slide:nth-child(2) {
+	/* margin-left: -17vw; */
+	transition: all ease 0.7s;
+
+	/* scale: 0.5; */
+	width: 100%;
 	
+  }
+
+  .swiper-slide:nth-child(3) {
+	width: 100%;
+	/* margin-left: -17vw; */
+	transition: all ease 0.7s;
+	/* scale: 0.7; */
+
+  }
+#page6{
+	width: 100%;
+	height: 100vh;
+	margin-top: 10vw;
+}
+#page8{
+	width: 100%;
+	height: 140vh;
+	background-color: #03364F;
+}
+#page9 svg:nth-child(1){
+	fill: #03364F;
+	width: 260vw;
+}
+#page9 svg:nth-child(2){
+	/* fill: #03364F; */
+	margin-top: -39vw;
+
+}
+#page7{
+	rotate: 180deg;
+}
+#page7 svg:nth-child(1){
+	fill: #03364F;
+	width: 260vw;
+}
+#page7 svg:nth-child(2){
+	/* fill: #03364F; */
+	margin-top: -39vw;
+
+}
+#page8 >h1{
+	font-size: 5vw;
+	font-weight: 100;
+	font-family: att;
+	line-height: 5vw;
+	margin-left: 20vw;
+	color: #043F5D;
+	width: 60%;
+	text-align: center;
+}
+#page8> h2{
+	font-size: 1.2vw;
+	font-weight: 100;
+	width: 40%;
+	text-align: center;
+	color: #fff;
+	margin-left: 30vw;
+	margin-top: 40px;
+
+}
+#gate{
+	display: flex;
+	justify-content: space-between;
+	padding: 5vw 5vw;
+}
+#po{
+	width: 24vw;
+	/* background-color: red; */
+	height: 60vh;
+}
+#po1{
+	display: flex;
+	gap: 40px;
+}
+#poq{
+	width: 23vw;
+	/* background-color: red; */
+	height: 60vh;
+
+}
+#po1 #poq:nth-child(1){
+	/* background-color: blue; */
+	margin-top: 10vw;
+}
+#po img{
+	width: 90%;
+	height: 50%;
+	border-radius: 20px;
+	object-fit: cover;
+}
+#poq img{
+	width: 90%;
+	height: 50%;
+	border-radius: 20px;
+	object-fit: cover;
+}
+#gate h1{
+	margin-top: 2vw;
+	font-size: 2.4vw;
+	font-weight: 100;
+	font-family: att;
+	color: #E3E3C4;
+	
+}
+#gate h2{
+	font-size: 1.2vw;
+	font-weight: 100;
+	text-align: left;
+	color: #d8e5e7;
+	width: 85%;
+}
+#page8 #e{
+	position: absolute;
+	bottom: 10px;
+	left: 60%;
+	color: white;
+}
+#page10{
+	width: 100%;
+	height: 100vh;
+
+}
+#page10 h1{
+	text-align: center;
+	font-size: 5vw;
+	width: 50%;
+	font-weight: 100;
+	font-family: att;
+	margin-left: 24vw;
+	line-height: 5.2vw;
+	color:#E5E5C8;
+}
