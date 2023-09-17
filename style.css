@@ -279,6 +279,9 @@ transition: all ease 0.2s;
 	padding-left: 10px;
 	border-radius: 30px;
 }
+title{
+	background-color: blue;
+}
 @media screen and (max-width: 600px) {
 	
 	svg{
@@ -457,4 +460,3 @@ transition: all ease 0.2s;
 		}
 }
 	
-	  
